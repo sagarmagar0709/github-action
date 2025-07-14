@@ -1,4 +1,4 @@
-#app.java file
+#app.java
 package com.example;
 
 public class App {
