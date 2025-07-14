@@ -23,3 +23,20 @@ jobs:
       - name: Build with Maven
         run: mvn clean install
 #comment add
+### 🔹 Actions Triggered from This Workflow (Short Summary):
+
+#1. **Code Checkout**
+#   → Uses `actions/checkout@v3` to clone repo code into the runner.
+
+#2. **Java Setup**
+#   → Uses `actions/setup-java@v3` to install Java 17 (Temurin).
+
+#3. **Maven Build**
+#   → Runs `mvn clean install` to compile, test, and package the Java app.
+
+### 🔸 Triggered On:
+
+#* **Push** to `main`
+#* **Pull Request** to `main`
+
+
